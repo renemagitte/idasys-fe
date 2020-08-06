@@ -78,3 +78,8 @@ export default {
       changeOrigin: true
   }
 }
+
+// Workaround to make form-backend-validation work with Nuxt
+// see issue: https://github.com/spatie/form-backend-validation/issues/74
+global.File= typeof window === 'undefined' ? Object : window.File
+global.FileList= typeof window === 'undefined' ? Object : window.FileList
