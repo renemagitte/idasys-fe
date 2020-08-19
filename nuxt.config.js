@@ -67,6 +67,7 @@ export default {
   axios: {
     proxy: true
   },
+
   proxy: {
     '/api': {
       target: 'http://idasys.test',

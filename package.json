@@ -12,7 +12,9 @@
     "@nuxtjs/axios": "^5.12.1",
     "@nuxtjs/proxy": "^2.0.1",
     "axios": "^0.19.2",
+    "d3": "^5.16.0",
     "form-backend-validation": "^2.4.0",
+    "lodash": "^4.17.20",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {}
