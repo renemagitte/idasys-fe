@@ -19,7 +19,8 @@ export default {
     data() {
       return {
         loading: true,
-        garments: []
+        garments: [],
+        excelFile: '',
       }
     },
     created() {
